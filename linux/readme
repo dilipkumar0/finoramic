@@ -1,0 +1,21 @@
+
+All the dependency packages are initially included in "packages.json" file. 
+
+Intially data is read from the file in key and value format i.e. key = packageName and value = version number.
+
+The packages are installed with the help of pip command.
+
+Everytime the stdandard output is stored in stdout.txt. 
+
+From the stdout we can now search for specified keywords in the stdout.file. 
+
+If the message says "Successfully installed"  or "Requirement already satisfied" then only it implies that the dependency packages are successfully installed orelse not installed.
+
+All the uninstalled packages are stored in the file packageName.txt.
+
+
+
+
+
+
+
